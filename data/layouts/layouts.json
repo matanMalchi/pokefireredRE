@@ -4380,6 +4380,18 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_STRUMA2",
+      "name": "PalletTown_Struma2_Layout",
+      "width": 20,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/PalletTown_Struma2/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_Struma2/map.bin"
     }
   ]
 }
