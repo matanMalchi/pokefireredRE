@@ -1,0 +1,2 @@
+PalletTown_Struma_F3_MapScripts::
+	.byte 0

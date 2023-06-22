@@ -1362,3 +1362,12 @@ Text_TestMsg::
 
 	.include "data/maps/PalletTown_Struma2/scripts.inc"
 	.include "data/maps/PalletTown_Struma2/text.inc"
+
+	.include "data/maps/PalletTown_Struma_F2/scripts.inc"
+	.include "data/maps/PalletTown_Struma_F2/text.inc"
+
+	.include "data/maps/PalletTown_Struma_F3/scripts.inc"
+	.include "data/maps/PalletTown_Struma_F3/text.inc"
+
+	.include "data/maps/PalletTown_Struma_F4/scripts.inc"
+	.include "data/maps/PalletTown_Struma_F4/text.inc"
