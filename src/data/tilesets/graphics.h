@@ -1407,3 +1407,22 @@ const u16 gTilesetPalettes_HallOfFame[][16] =
 	INCBIN_U16("data/tilesets/secondary/hall_of_fame/palettes/14.gbapal"),
 	INCBIN_U16("data/tilesets/secondary/hall_of_fame/palettes/15.gbapal"),
 };
+
+const u16 gTilesetPalettes_tileTest[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/tile_test/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_tileTest[] = INCBIN_U32("data/tilesets/secondary/tile_test/tiles.4bpp.lz");

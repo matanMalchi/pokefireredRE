@@ -201,3 +201,6 @@ const u32 gMetatileAttributes_PokemonLeague[] = INCBIN_U32("data/tilesets/second
 
 const u16 gMetatiles_HallOfFame[] = INCBIN_U16("data/tilesets/secondary/hall_of_fame/metatiles.bin");
 const u32 gMetatileAttributes_HallOfFame[] = INCBIN_U32("data/tilesets/secondary/hall_of_fame/metatile_attributes.bin");
+
+const u16 gMetatiles_tileTest[] = INCBIN_U16("data/tilesets/secondary/tile_test/metatiles.bin");
+const u32 gMetatileAttributes_tileTest[] = INCBIN_U32("data/tilesets/secondary/tile_test/metatile_attributes.bin");
