@@ -1,3 +1,4 @@
+raw `
 .equ LOCALID_SIGN_LADY, 1
 .equ LOCALID_PROF_OAK,  3
 
@@ -451,14 +452,10 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	release
 	end
 
-PalletTown_EventScript_MayorSign::
-	lockall
-	msgbox PalletTown_EventScript_MayorSign_Text_0
-	releaseall
-	return
+`
 
-
-PalletTown_EventScript_MayorSign_Text_0:
-	.string "Mayor: Here a luxury neighborhood will\n"
-	.string "be built, Work completion date:\l"
-	.string "40/13/3030$"
+script PalletTown_EventScript_MayorSign {
+    lockall
+    msgbox(format("Mayor: Here a luxury neighborhood will be built, Work completion date: 40/13/3030"))
+    releaseall
+}
