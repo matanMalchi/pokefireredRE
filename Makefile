@@ -114,7 +114,7 @@ RAMSCRGEN := tools/ramscrgen/ramscrgen
 FIX := tools/gbafix/gbafix
 MAPJSON := tools/mapjson/mapjson
 JSONPROC := tools/jsonproc/jsonproc
-SCRIPT := tools/poryscript/poryscript
+SCRIPT := tools/poryscript/poryscript$(EXE)
 
 PERL := perl
 
@@ -167,10 +167,6 @@ OBJS_REL := $(patsubst $(OBJ_DIR)/%,%,$(OBJS))
 TOOLDIRS := $(filter-out tools/agbcc tools/binutils tools/analyze_source tools/poryscript,$(wildcard tools/*))
 TOOLBASE = $(TOOLDIRS:tools/%=%)
 TOOLS = $(foreach tool,$(TOOLBASE),tools/$(tool)/$(tool)$(EXE))
-<<<<<<< HEAD
-=======
-TOOLDIRS := $(filter-out tools/agbcc tools/poryscript tools/binutils tools/analyze_source,$(wildcard tools/*))
->>>>>>> f269633376b3e09f4611c833a3e44f587a937d61
 
 ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1
 ALL_BUILDS += $(ALL_BUILDS:%=%_modern)

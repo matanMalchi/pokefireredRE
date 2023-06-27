@@ -451,7 +451,6 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	call PalletTown_EventScript_SignLadyShowSign
 	release
 	end
-<<<<<<< HEAD
 
 `
 
@@ -460,6 +459,3 @@ script PalletTown_EventScript_MayorSign {
     msgbox(format("Mayor: Here a luxury neighborhood will be built, Work completion date: 40/13/3030"))
     releaseall
 }
-=======
-`
->>>>>>> f269633376b3e09f4611c833a3e44f587a937d61
